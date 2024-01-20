@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+#tabs{
+  max-width: 32rem;
+  margin: 2rem 0;
+  overflow: hidden;
+}
+
+#tabs menu{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 0.25rem;
+}
+
+#tabs button{
+  font: inherit;
+  font-size: 0.85rem;
+  background-color: #6fa7c8;
+  border: none;
+  border-radius: 4px 4px 0 0;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  color: aliceblue;
+  transition:all 0.2s ease-out;
+}
+
+#tabs button:hover,
+#tabs button.active{
+  background-color: #063051;
+  color: #eaf3f4;
+}
+
+#tabContents{
+  background-color: #6fa7c8;
+  border-radius: 0 4px 4px 4px;
+  padding: 1rem;
+}
+
+#tabContents li{
+  margin: 0.75rem 0;
+}
